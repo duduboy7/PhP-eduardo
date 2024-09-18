@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 80%;
+	margin: 0px auto;
+}
+.alert{
+	padding: 10px;
+	border-radius: 4px;
+	font-family: 'Righteous', cursive;
+}
+.alert-info{
+	background-color: rgba(173, 216, 230, 0.7);
+	border: 1px solid rgb(173, 216, 230);
+	color: rgb(54, 100, 139);
+}
+.alert-warning{
+	background-color: rgba(255, 235, 205, 0.7);
+	border: 1px solid rgb(255, 235, 205);
+	color: rgb(255, 140, 0);
+}
+
+.alert-danger{
+	background-color: rgba(255, 64, 64, 0.7);
+	border: 1px solid rgb(255, 64, 64);
+	color: rgb(139, 26, 26);
+}
+.form-control{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.btn{
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+}
+.btn-info{
+	background-color: rgba(173, 216, 230, 0.7);
+	border: 1px solid rgb(173, 216, 230);
+	color: rgb(54, 100, 139);
+}
+.mt-3{
+	margin-top: 10px;
+}
+.text-center{
+	text-align: center;
+
+}
